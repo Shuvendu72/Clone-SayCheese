@@ -1,0 +1,24 @@
+.wrapper {
+  background: #200a24;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  margin-bottom: 2rem;
+}
+.heading {
+  line-height: 1.29;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 3.3rem;
+  color: #fff;
+}
+.formwrap {
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  color: #fff;
+  // justify-content: space-between;
+}

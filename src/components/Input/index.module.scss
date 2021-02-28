@@ -1,0 +1,28 @@
+.wrapper {
+}
+.label {
+  color: #fafafa;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  border: none;
+  height: 32px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 0.5rem;
+  &:focus {
+    outline: none;
+  }
+}
+.inputError {
+  background-color: rgb(124, 36, 36);
+  &::placeholder {
+    color: #fff;
+  }
+}
+.error {
+  color: rgb(124, 36, 36);
+  font-size: 0.75rem;
+}

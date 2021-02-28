@@ -1,0 +1,16 @@
+.container {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // background: rgb(32, 10, 36);
+  height: 100%;
+}
+
+.menu-wrapper {
+  display: flex;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1.75px;
+}
